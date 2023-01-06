@@ -3,7 +3,7 @@
        padding: 0;
    }
 
-   /* think-out-box-concepts-with-lightbulb-box 1 */
+  /* header */
 
    .sec-title {
        min-height: 100vh;
@@ -63,7 +63,7 @@
        background-position: left;
        background-repeat: no-repeat;
        margin-left: 15%;
-
+      
    }
 
    .failure {
@@ -166,6 +166,7 @@
        height: 300px;
        left: 230px;
        top: 2221.96px;
+       background-image:linear-gradient(rgba(9, 57, 12, 0.777)),linear-gradient(rgb(20, 20, 221)),url(../images/gradient3.png),url(../images/banner/banner3.png);
 
    }
 
@@ -183,7 +184,7 @@
    }
 
    .third-para {
-       position: absolute;
+       position:absolute;
        font-family: 'Work Sans';
        font-style: normal;
        font-weight: 700;
@@ -231,4 +232,54 @@
        font-size: 20px;
        color: #757575;
    }
+
+
    /* footer */
+   .footer{
+    color: black;
+    width: 1600px;
+height: 577px;
+left: 0px;
+top: 2651.96px;
+
+   }
+.footer-content{
+    text-align: left;
+}
+.img{
+    margin-top: 20%;
+}
+.dex{
+  
+    position:sticky;
+    width: 325px;
+    height: 144px;
+    left: 1046px;
+    top: 2841.96px;
+    
+}
+.sub-dex{
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.content{
+    display: flex;
+    gap: 100px;
+    background-color: rgb(247, 224, 167);
+    padding: 130px 200px;
+   
+}
+.ddd{
+    gap: 10px;
+}
+.future{
+    font-size: 30px;
+    font-style: inherit;
+}
+.input-subscribe{
+    border:1px solid #151414;
+    background-color: rgb(255, 247, 247);
+    font-size: 20px;
+    font: bold;
+}
