@@ -12,7 +12,7 @@
     background-position: center;
     background-size:cover ;
  }
- h2{ position: absolute;
+ .everything{ position: absolute;
     width: 525px;
     height: 228px;
     left: 845px;
@@ -22,7 +22,6 @@
     font-style: normal;
     font-weight: 600;
     font-size: 65px;
-    /* line-height: 76px; */
     text-align: right;
     
     color: white;
@@ -44,10 +43,60 @@ Width:160px;
 Height:64px;
 Top:578px;
 Left:1210px;
-Radius:5px;
 width: 160px;
 height: 60px;
 left: 1000px;
 top: 578px;
 
  }
+
+ /* Main part */
+ .sec-failure{
+
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../images/person.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    margin-left: 15%;
+    
+ }
+ .failure{position: absolute;
+    width: 416px;
+    height: 400px;
+    left: 920px;
+    top: 1148px;
+
+
+ }
+ .h-three{ 
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    text-align: right;
+    
+    color: rgb(7, 7, 7);
+ }
+ .sub-failure {color: rgb(0, 0, 0);
+ text-decoration:none;
+ 
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+margin-top: 8%;
+
+ }
+  li{color: rgb(21, 16, 16);
+    text-decoration:none;
+    top: 1686px;
+   font-family: 'Work Sans';
+   font-style: normal;
+   font-weight: 200;
+   font-size: 16px;
+   line-height: 20px;
+   margin-top:5px;
+   
+   }
