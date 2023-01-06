@@ -1,0 +1,53 @@
+   
+   *{
+    margin: 0;
+    padding: 0;
+   }
+    /* think-out-box-concepts-with-lightbulb-box 1 */
+
+ .sec-title{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(../images/banner/banner3.png);
+    background-position: center;
+    background-size:cover ;
+ }
+ h2{ position: absolute;
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+    
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    /* line-height: 76px; */
+    text-align: right;
+    
+    color: white;
+     
+ }
+ .sec-sub-title{
+    position: absolute;
+width: 494px;
+height: 78px;
+left: 876px;
+top: 468px;
+
+font-family: 'Work Sans';
+color: white;
+ }
+ .btn-primary{    
+position: absolute;
+Width:160px;
+Height:64px;
+Top:578px;
+Left:1210px;
+Radius:5px;
+width: 160px;
+height: 60px;
+left: 1000px;
+top: 578px;
+
+ }
